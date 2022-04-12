@@ -15,3 +15,10 @@ We can, as an example effort, even modify this README and change it as if it wer
 
 This demo also includes an image with changes on a branch for examination of image diff on GitHub.
 we can even clone the Repodown to Laptop using clone command , but I made up my mind to use svn command.
+Issued svn up trunk --> trunk is created to map to our default branch(here main) 
+
+issued gitbash command -- ls
+In current scenario the way it is working in BSL landscape--> they(resources wont be giving up using existing way of making code changes/updating the trunk Repo once changes are tested sucessfully.
+I Just copied from runk to a newly created branch using svn command as
+svn copy trunk branches/update-readme-formatting
+finally able to copy the files from git main to --> svn  and then copied files to --> newly created branch.
